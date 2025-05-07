@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Depurar C/C++",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",  // Caminho para o executável na pasta bin
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",  // Usando GDB
+            "miDebuggerPath": "/usr/bin/gdb", // Caminho para o GDB
+            "preLaunchTask": "compilar C/C++",
+            "logging": {
+                "moduleLoad": false,
+                "trace": true,
+                "engineLogging": false
+            }
+        }
+    ]
+}
+
+
+
