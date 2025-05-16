@@ -37,6 +37,14 @@ int main()
 
 void consulta(int n, tCidades* vetor, int** distancias)
 {
+    printf("Informe o indice das cidades que deseja imprimir: ");
+    scanf("%d", &n);
+    
+
+
+
+
+
 
 }
 
